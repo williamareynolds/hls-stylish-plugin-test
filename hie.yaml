@@ -1,0 +1,19 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "test-stylish-plugin:lib"
+
+    - path: "./other-app/Main.hs"
+      component: "test-stylish-plugin:exe:another-exe"
+
+    - path: "./other-app/Paths_test_stylish_plugin.hs"
+      component: "test-stylish-plugin:exe:another-exe"
+
+    - path: "./app/Main.hs"
+      component: "test-stylish-plugin:exe:test-stylish-plugin-exe"
+
+    - path: "./app/Paths_test_stylish_plugin.hs"
+      component: "test-stylish-plugin:exe:test-stylish-plugin-exe"
+
+    - path: "./test"
+      component: "test-stylish-plugin:test:test-stylish-plugin-test"
